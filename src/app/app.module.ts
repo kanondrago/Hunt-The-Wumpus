@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
 //components
 import { HeaderComponent } from './shared/header/header.component';
@@ -15,12 +16,12 @@ import { PageNoFoundComponent } from './pages/pageNoFound/page-no-found.componen
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    PageNoFoundComponent
+    PageNoFoundComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
