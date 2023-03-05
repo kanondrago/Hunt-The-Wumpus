@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { PageNoFoundComponent } from './pages/pageNoFound/page-no-found.component';
+import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PageNoFoundComponent } from './pages/pageNoFound/page-no-found.componen
     FooterComponent,
     DashboardComponent,
     PageNoFoundComponent,
+    PagesComponent,
   ],
   imports: [
     BrowserModule,
